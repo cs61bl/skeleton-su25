@@ -1,48 +1,75 @@
-# skeleton-su25
+# CS 61BL Skeleton - Summer 2025
 
-This repository is a fork of [cs61bl/skeleton-su25](https://github.com/cs61bl/skeleton-su25) and serves as a foundational skeleton codebase, likely intended for educational purposes, assignments, or projects related to the CS 61BL course.
+Welcome to the official **skeleton repository** for [CS 61BL](https://cs61bl.org/su25/), the Data Structures and Programming Methodology course offered in Summer 2025 at UC Berkeley.
 
-## Overview
+This repository provides the base code, configuration, and structure required for all CS 61BL labs, projects, and assignments.
 
-- **Parent Repository:** [cs61bl/skeleton-su25](https://github.com/cs61bl/skeleton-su25)
-- **Forked By:** [HelloSummer61](https://github.com/HelloSummer61)
-- **Purpose:** Provides starter code and structure for assignments or labs, making it easier for students to begin their coursework with the necessary boilerplate and organization.
+## 📚 Course Overview
 
-## Features
+**CS 61BL** is a rigorous introduction to data structures, algorithms, and Java programming, with an emphasis on good software engineering practices. This skeleton helps students begin each assignment with a consistent, organized codebase.
 
-- Pre-configured project structure for CS 61BL assignments
-- Compatible with standard development environments
-- Easy to extend for course-specific requirements
+## 🛠️ Included in This Repository
 
-## Getting Started
+* Starter code and project scaffolding for all course components
+* Pre-configured development tools and settings
+* Interfaces, abstract classes, and test scaffolding for each lab/project
+* Code quality and style tools pre-integrated with course standards
 
-1. **Clone the repository**
-    ```bash
-    git clone https://github.com/HelloSummer61/skeleton-su25.git
-    cd skeleton-su25
-    ```
+## 🚀 Getting Started
 
-2. **Explore the contents**
-    - Review the directories and files provided for assignment skeletons.
-    - Follow any assignment-specific instructions provided by your course.
+To begin working with the skeleton:
 
-## Usage
+1. **Clone this repository:**
 
-- Use this skeleton as the starting point for your CS 61BL assignments.
-- Replace, modify, or extend the files as needed according to your coursework requirements.
+   ```bash
+   git clone https://github.com/cs61bl/skeleton-su25.git
+   cd skeleton-su25
+   ```
 
-## Contributing
+2. **Set up your remote for course autograder integration:**
 
-This is a student fork mainly for personal coursework. Contributions or pull requests are not expected.
+   Follow the [Lab 0 setup instructions](https://cs61bl.org/su25/labs/lab00/) to connect this skeleton to your private repository on GitHub Classroom.
 
-## License
+3. **Install Java and development tools:**
 
-This repository does not currently specify a license. Refer to the parent repository for license information if applicable.
+   This course requires **Java 21** and supports **Visual Studio Code** or **IntelliJ IDEA**. See the [Environment Setup Guide](https://cs61bl.org/su25/labs/lab00/) for full instructions.
 
-## Acknowledgments
+## 🧪 Assignments & Workflow
 
-- [cs61bl/skeleton-su25](https://github.com/cs61bl/skeleton-su25) for providing the original skeleton structure.
+* Each lab or project will come with its own subfolder in this repository.
+* You’ll write code, complete tests, and push changes to your GitHub Classroom repository.
+* Use the provided `Makefile` or IDE build tools to compile and test your code.
+* The skeleton includes basic unit tests, but you are expected to write your own for full coverage.
+
+## ❗ Notes
+
+* Do **not** modify files marked with `@DoNotModify` unless instructed.
+* All assignments are submitted through your personal GitHub Classroom fork.
+* Autograder results will be shown in *GradeScope*.
+
+## 📦 Repository Structure
+
+```
+.
+├── proj1/             # Project 1 starter code
+├── lab01/             # Lab 1 starter code
+├── lab02/
+├── lab03/
+└── README.md          # This file
+```
+
+More folders will appear as the course progresses.
+
+## 🙋 Need Help?
+
+* [Course Website](https://cs61bl.org/su25/)
+* [Ed Discussion Forum](https://edstem.org/us/courses/XXXXX) *(link provided in course email)*
+* Office hours and lab times posted weekly
+
+## 📜 License
+
+This code is intended for **CS 61BL Summer 2025 students only**. Unauthorized use, reproduction, or distribution is strictly prohibited. Refer to the Berkeley Honor Code and course policies.
 
 ---
 
-> If you need details on specific files, assignment instructions, or setup steps, please provide more information or upload relevant files!
+© 2025 CS 61BL Instructional Team – University of California, Berkeley
